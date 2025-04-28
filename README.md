@@ -1,6 +1,6 @@
 # Sistema de Administração - TCC ETEC
 
-Este projeto é o sistema de administração desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) da ETEC, no curso técnico de Desenvolvimento de Sistemas.
+Este projeto é o sistema de administração desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) da ETEC, no meu curso técnico de Desenvolvimento de Sistemas.
 
 O sistema tem como objetivo gerenciar e organizar as atividades da plataforma principal do projeto HelpHouse, permitindo controle eficiente de dados administrativos.
 
