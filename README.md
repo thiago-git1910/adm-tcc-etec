@@ -31,9 +31,21 @@ O sistema tem como objetivo gerenciar e organizar as atividades da plataforma pr
      ```
       cd adm-tcc-etec
 3. **Instale as dependências**
-    ```
-    npm install
-4. **Configure o banco de dados**
+     ```
+         npm install
+     ```
+          npm install react-native-safe-area-context
+     ```
+          npm install -g expo-cli
+     ```
+           npm update
+     ```
+          npm expo update
+     ```
+          npm install firebase
+     ```
+          npm install react-native-mmkv
+5. **Configure o banco de dados**
 
 Crie um banco de dados MySQL.
 
