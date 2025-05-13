@@ -1,0 +1,818 @@
+
+.inicio {
+    margin-top: 3vh;
+    padding-left: 11vw;
+}
+
+
+.main {
+    min-height: 100vh;
+    width: 97%;
+    overflow: hidden;
+    transition: all 0.95s ease-in-out;
+    background-color: #ffffff;
+    margin-left: 3vw;
+    padding-left: 14.5vw;
+
+}
+
+/* --------------------------------TITULO DA DASHBOARD------------------------ */
+.title {
+    display: flex;
+    width: 80%;
+    height: 5vh;
+    justify-content: start;
+    align-items: center;
+    padding-left: 11vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    height: 51px;  /* 51 É PINGAA*/
+
+}
+
+.title p {
+    color: #004AAD;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 6vh;
+}
+
+
+.pai {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px; /* Ajuste este valor para mover levemente à direita */
+}
+
+
+.retangulo {
+    height: 80px; /* Reduz a altura */
+    flex-grow: 1; /* Expande cada item para ocupar o espaço disponível */
+    max-width: 120px; /* Limita a largura máxima de cada retângulo */
+    margin: 5px; /* Reduz o espaçamento */
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon, .icon1 {
+    font-size: 1.2rem; /* Ícones menores */
+    margin-bottom: 3px;
+}
+
+.labelP, .labelC, .labelS, .labelZ {
+    font-size: 0.9rem; /* Fonte menor */
+    margin-bottom: 3px;
+}
+
+.countP, .countC, .countS, .countZ {
+    font-size: 1rem; /* Fonte menor */
+    font-weight: bold;
+}
+
+.urus, .uracan, .mccan {
+    display: none; /* Remove o separador '|' */
+}
+
+hr {
+    display: none; /* Remove a linha horizontal para liberar espaço */
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 800px;
+    margin: 5vh;
+    justify-content: space-evenly;
+
+}
+
+    .partes {
+        width: 30%;
+        height: 800px;
+        flex-direction: column;
+        display: flex;
+        border-right: 2px solid rgb(110, 110, 110);
+        margin-right: 45px;
+    }
+
+    .partes h2 {
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        margin-left: 1vh;
+        margin-bottom: 3vh;
+    }
+
+
+
+
+        .grafico {
+            width: 100%;
+            height: 300px;
+            justify-content: center;
+            display: flex;
+
+        }
+
+        .servicos {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 800px;
+            margin: 1vh;
+            transform: translateX(-50px); /* Ajuste o valor conforme necessário */
+        }
+        
+
+        .oncinha {
+            width: 100%;
+            height: 70px;
+            background-color: #e4e2e2;
+            border-radius: 40px;
+            margin: 1vh;
+            display: flex;
+            justify-content: start;
+            padding-left: 3.5vh;
+            padding-top: 2vh;
+            margin-left: 8vh;
+        }
+
+            .oncinha h3 {
+                font-weight: 700;
+                font-family: "Poppins", sans-serif;
+            }
+            
+                .numero {
+                    margin-left: 2vh;
+                    margin-top: -1vh;
+                    font-size: 40px;
+                }
+
+.graficopro {
+    height: 300px;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.partes1 {
+    width: 30%;
+    height: 800px;
+    flex-direction: column;
+    display: flex;
+}
+
+.avaliacoes {
+    height: 60px;
+    width: 90%;
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    display: flex;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-around;
+    font-size: 25px;
+   margin-bottom: 2vh;
+    padding-top: 1vh;
+   
+}
+
+.topPro {
+   
+    margin-top: 3vh;
+    width: 90%;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+}
+
+.ranking {
+    height: 20%;
+    width: 100%;
+    margin-top: 2vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top1, .top2, .top3 {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.top1, .top2, .top3, h2 {
+    color: white;
+    margin-top: 1.5vh;
+}
+
+.topPro p {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color:  #004AAD;
+}
+
+.nomePro {
+  
+    display: flex;
+}
+
+.avaliacoes h3 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 1vw;
+    padding: 17px;
+}
+
+.avaliacoes .icon {
+    font-size: 25px;
+    color: #fff;
+}
+
+ .retanguloPro, .retanguloCli, .retanguloServ, .retanguloZona {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 25px;
+    width: 350px;
+    height: 80px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.2s ease;
+}
+
+.retangulo:hover {
+    transform: scale(1.05);
+}
+
+.retanguloPro .icon {
+    margin-top: 0.8vh;
+    font-size: 35px;
+    color: #004AAD;
+}
+
+
+.urus {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #004AAD;
+}
+
+.uracan {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #e38144;
+}
+
+.mccan{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #A6A6A6;
+}
+
+
+.retanguloPro .labelP {
+    margin-top: 0.5vh;
+    font-size: 35px;
+    font-weight: bold;
+    color: #004AAD;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.retanguloPro .countP {
+    font-size: 35px;
+    font-weight: bold;
+    color: #004AAD;
+}
+
+
+
+
+.retanguloCli .icon1 {
+    margin-top: 0.8vh;
+    font-size: 35px;
+    color: #e38144;
+    margin-bottom: 5px;
+}
+
+.retanguloCli .labelC {
+    margin-top: 0.5vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e38144;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.retanguloCli .countC {
+    font-size: 35px;
+    font-weight: bold;
+    color: #e38144;
+}
+
+
+.retanguloServ .icon {
+    margin-top: 0.8vh;
+    font-size: 35px;
+    color: #A6A6A6;
+    margin-bottom: 5px;
+}
+
+.retanguloServ .labelS {
+    margin-top: 1vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: #A6A6A6;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.retanguloServ .countS {
+   
+    font-size: 30px;
+    font-weight: bold;
+    color: #A6A6A6;
+}
+
+.retanguloZona .icon {
+    margin-top: 0.8vh;
+    font-size: 35px;
+    color: #A6A6A6;
+    margin-bottom: 5px;
+}
+
+.retanguloZona .labelZ {
+    margin-top: 0.8vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: #A6A6A6;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.retanguloZona .countZ {
+   
+    font-size: 30px;
+    font-weight: bold;
+    color: #A6A6A6;
+}
+
+.partes1 h2 {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+}
+   /* tem duas por causa da border right da primeira :0 */
+
+.grafico2{
+    width: 100%;
+    height: 380px;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.botoes {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-top: -10vh;
+
+}
+
+.usuarios {
+    height: 80px;
+    width: 80%;
+    background-color: #e4e2e2;
+    border-radius: 40px;
+    margin-bottom: 3vh;
+    margin-left: 10%;
+    display: flex;
+    padding: 2vh;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 4vh;
+    transition: 0.6s;
+}
+
+.usuarios:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.415);
+    cursor: pointer;
+}
+
+        .iconezinho {
+            font-size: 40px;
+        }
+ 
+.addservicos {
+    height: 80px;
+    width: 80%;
+    background-color: #e4e2e2;
+    border-radius: 40px;
+    margin-left: 10%;
+    display: flex;
+    padding: 2vh;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 4vh;
+    transition: 0.6s;
+}
+
+.addservicos:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.415);
+    cursor: pointer;
+}
+.tituloaa {
+    color: #004AAD;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+    .grafico{
+        width: 650px;
+        height: 200px;
+    }
+    .infoAdmin .num2{
+        position: relative;
+        top: 10px;
+    }
+    .numPerguntas .textPerguntas{
+        position: relative;
+        top:20px
+    }
+    .perguntas{
+        margin-bottom: 27px;
+    }
+    .amarelo{
+        font-size: 28px;
+
+    }
+    .preto{
+        font-size: 28px;
+    }
+    .title p {
+        font-size: 55px;
+    }
+
+
+
+  }
+
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+    .infoAdmin2{
+        position: relative;
+        left: 34px;
+    }
+    .grafico{
+        width: 650px;
+        height: 200px;
+    }
+
+    .textPerguntas{
+        display: flex;
+        flex-direction: column;
+    }
+    #emAberto{
+        display: flex;
+        bottom: 40px;
+    }
+    #num{
+        display: flex;
+        top: 40px;
+    }
+
+    .perguntas{
+        font-size: 20px;
+    }
+    .emAberto{
+        font-size: 20px;
+    }
+
+    .textSolicitcao{
+        display: flex;
+        flex-direction: column;
+    }
+    .ig, .ryan{
+        font-size: 20px;
+    }
+    #textSolicitacao #ryan{
+        display: flex;
+        bottom: 30px;
+    }
+
+    .amarelo{
+        font-size: 23px;
+
+    }
+    .preto{
+        font-size: 23px;
+    }
+    .title p {
+        font-size: 55px;
+    }
+
+    .info i{
+        font-size: 50px;
+    }
+    .info2 i{
+        font-size: 56px;
+    }
+    .info2 .chupapal{
+
+        font-size: 23px;
+        position: relative;
+        right: 3px;
+    }
+    .info2{
+        height: 89%;
+    }
+    .info{
+        height: 89%;
+
+    }
+    .infoAdmin{
+        position: relative;
+        right: 6px;
+    }
+
+  }
+
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+    #olaGuilherme{
+        font-size: 45px;
+    }
+    .grafico{
+        width: 500px;
+        height: 200px;
+    }
+
+    .infoAdmin2{
+        position: relative;
+        left: 34px;
+    }
+    .infoAdmin .num2{
+        position: relative;
+        top: 10px;
+    }
+  .segundaColuna .numPerguntas, .infoAdmin{
+    height: 90%;
+  }
+  .segundaColuna #perguntas, #emAberto{
+    font-size: 20px;
+  }
+  .infoAdmin .ig, .ryan{
+    font-size: 20px;
+
+  }
+    .numPerguntas .textPerguntas{
+        position: relative;
+        top:18px
+    }
+    .perguntas{
+        margin-bottom: 27px;
+    }
+    .amarelo{
+        font-size: 19px;
+
+    }
+    .preto{
+        font-size: 20px;
+    }
+    .title p {
+        font-size: 50px;
+    }
+
+    .info i{
+        font-size: 35px;
+    }
+    .info2 i{
+        font-size: 35px;
+    }
+    .info2 .chupapal{
+
+        font-size: 20px;
+        position: relative;
+        right: 3px;
+    }
+    .info .chupapal{
+        font-size: 20px;
+        position: relative;
+    }
+    .info2{
+        height: 80%;
+    }
+    .info{
+        height: 80%;
+
+    }
+    .infoAdmin{
+        position: relative;
+        right: 6px;
+    }
+    .vish{
+        height: 85%;
+    }
+
+  }
+
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+    .grafico{
+        width: 350px;
+        height: 150px;
+
+    }
+
+    .infoAdmin2{
+        position: relative;
+        left: 2%;
+    }
+    .amarelo{
+        font-size: 13px;
+    }
+    .preto{
+        font-size: 13px;
+    }
+    .ig{
+        font-size: 13px;
+    }
+    .ryan{
+        font-size: 13px;
+    }
+    #num2{
+        font-size: 50px;
+    }
+    .perguntas{
+        margin-bottom: 17%;
+    }
+    #perguntas{
+        font-size: 16px;
+    }
+    .emAberto{
+        margin-bottom: 37%;
+    }
+    #emAberto{
+        font-size: 16px;
+    }
+    #num{
+        font-size: 50px;
+        position: relative;
+        top:30px,
+    }
+    #info{
+        height: 80%;
+        width: 93%;
+    }
+    #cpp{
+        font-size: 14px;
+        right: 13%;
+    }
+    #info2{
+        height: 80%;
+        width: 93%;
+    }
+    .info .chupapal{
+        font-size: 14px;
+        position: relative;
+    }
+    #olaGuilherme{
+        font-size: 40px;
+    }
+    #titleDashboard{
+        font-size: 35px;
+    }
+
+
+
+
+  }
+
+
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+    .grafico{
+        width: 350px;
+        height: 150px;
+
+    }
+
+    .infoAdmin2{
+        position: relative;
+        left: 2%;
+    }
+    .amarelo{
+        font-size: 13px;
+    }
+    .preto{
+        font-size: 13px;
+    }
+    .ig{
+        font-size: 13px;
+    }
+    .ryan{
+        font-size: 13px;
+    }
+    #num2{
+        font-size: 50px;
+    }
+    .perguntas{
+        margin-bottom: 17%;
+    }
+    #perguntas{
+        font-size: 16px;
+    }
+    .emAberto{
+        margin-bottom: 37%;
+    }
+    #emAberto{
+        font-size: 16px;
+    }
+    #num{
+        font-size: 50px;
+    }
+    #info{
+        height: 80%;
+        width: 93%;
+    }
+    #cpp{
+        font-size: 14px;
+        right: 13%;
+    }
+    #info2{
+        height: 80%;
+        width: 93%;
+    }
+    .info .chupapal{
+        font-size: 14px;
+        position: relative;
+    }
+    #olaGuilherme{
+        font-size: 40px;
+    }
+    #titleDashboard{
+        font-size: 35px;
+    }
+  }
+
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }
+

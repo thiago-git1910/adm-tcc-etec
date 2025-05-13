@@ -1,0 +1,85 @@
+.table {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(222, 222, 222);
+    margin-left: 10vh;
+    border-radius: 20px;
+    margin-top: 5vh;
+
+}
+.inicio {
+    margin-top: 4vh;
+    padding-left: 8.5vh;
+   
+    flex-direction: row;
+    display: flex;
+    height: 60px;
+}
+
+.header {
+    width: 60%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; /* Ajuste conforme necessário */
+    margin: auto;
+}
+
+.search-input {
+    flex: 1; /* Faz o input ocupar o espaço restante */
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Canto arredondado apenas no início */
+    outline: none;
+}
+
+.search-btn {
+    background-color: #fff; /* Cor do botão */
+    color: #000; /* Cor do ícone */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0; /* Canto arredondado no final */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn i {
+    font-size: 18px; /* Tamanho do ícone */
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.table {
+    background-color:rgb(222, 222, 222) ;
+}
+.inicio p {
+    font-size: 30px ;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.title p {
+    color: #004AAD;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 8vh;
+    margin-top: -3vh;
+   
+}
+
+.botao {
+    margin-left:10vh ;
+}

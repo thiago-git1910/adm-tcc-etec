@@ -1,0 +1,237 @@
+/* Importando a fonte POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #222831;
+    margin: 0;
+    padding: 0 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do container principal */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e2e2e2;
+}
+
+/* Estilização do fundo do formulário */
+.row {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Estilização da coluna do formulário */
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    background-color: #f7f7f7; /* Cor de fundo para a área do formulário */
+}
+
+/* Caixa de entrada do formulário */
+.input-box {
+    width: 100%;
+    max-width: 330px;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width:115% ;
+    background-color: #f7f7f7;
+}
+
+/* Estilo do cabeçalho do formulário */
+.input-box header {
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 45px;
+    font-weight: 800;
+    color: #004AAD;
+    padding-left: 10px;
+}
+
+
+/* Campos de entrada e botão */
+.input-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/* Estilo dos inputs de email e senha */
+.input {
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #004AAD;
+    outline: none;
+    color: #0b0c11;
+    padding-left: 10px;
+}
+
+/* Estilo do label dos inputs */
+.input-box .input-field label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-field input:focus~label {
+    top: -10px;
+    font-size: 13px;
+}
+
+.input-field input:valid~label {
+    top: -10px;
+    font-size: 13px;
+    color: #004AAD;
+}
+
+.input-field .input:focus,
+.input-field .input:valid {
+    transition: 0.6s;
+    border-bottom: 1px solid #004AAD;
+}
+.input.is-invalid {
+    border: 1px solid red; /* Adiciona uma borda vermelha se a cor de borda não estiver sendo aplicada */
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3); /* Sombra apenas na parte inferior */
+
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 12px;
+    position: relative;
+    right: 65px;
+}
+
+
+
+/* Estilo do botão de submit */
+.submit {
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 200px;
+    background: #FFBD59;
+    border-radius: 40px;
+    transition: 0.4s;
+    font-weight: 800;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: rgba(37, 95, 156, 0.937);
+    color: #fff;
+}
+
+/* Estilo do link de cadastro */
+.signin {
+    text-align: center;
+    font-size: small;
+    margin-top: 25px;
+}
+
+span a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    transition: 0.5s;
+}
+
+span a:hover {
+    text-decoration: underline;
+    color: #004AAD;
+}
+
+/* Estilização da imagem lateral */
+#side-image {
+    background-image: url('#'); /* Coloque o caminho da imagem desejada aqui */
+    background-position: center;
+    background-size: cover;
+    background-color: #f7f7f7;
+    border-radius: 0 50px 50px 0; /* Bordas arredondadas */
+    position: relative;
+    flex: 1;
+
+}
+
+/* Texto sobre a imagem */
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 74, 173, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+i {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* Media Queries para diferentes tamanhos de tela */
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        width: 100%;
+        height: auto; /* Ajuste a altura para auto em telas menores */
+    }
+
+    #side-image {
+        height: 200px; /* Ajuste a altura da imagem em telas menores */
+        border-radius: 10px 10px 0 0;
+        background-size: cover; /* Ajusta a imagem para cobrir o espaço */
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px; /* Reduz o tamanho da fonte para dispositivos menores */
+        text-align: center;
+    }
+
+    .left {
+        padding: 10px; /* Reduz o padding em dispositivos menores */
+    }
+
+    .input-box {
+        width: 100%;
+        max-width: none; /* Remova a largura máxima em dispositivos menores */
+    }
+
+    .input-box header {
+        padding-left: 0; /* Ajuste o padding para centralizar em telas menores */
+        text-align: center; /* Centralize o cabeçalho em telas menores */
+    }
+}

@@ -1,0 +1,415 @@
+
+
+
+
+
+/* Estilo base para todos os elementos antes e depois */
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*entrar no login do lado do user */
+.entrar-main{
+    color: white;
+}
+
+/* Remove sublinhado de todos os links */
+a {
+    text-decoration: none;
+}
+
+/* Remove as bolinhas das listas */
+li {
+    list-style: none;
+}
+
+/* Estilo para títulos h1 */
+h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Fonte padrão do corpo do documento */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Define que o wrapper será um flex container */
+.wrapper {
+    display: flex;
+}
+
+/* Estilo para a seção principal */
+
+
+/* Navbar search */
+.navbar {
+    display: flex;
+    background-color: #125ac5;
+    position: relative;
+    z-index: 10;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+#search{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.btn-search{
+   width: 3%;
+   height: 20px;
+}
+#search-submit{
+    background-color: rgb(63, 162, 243);
+    position: relative;
+    border: none;
+    right: 2%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 0.4s;
+}
+#search-submit:hover{
+    transition: 0.4s;
+    background-color: #1bb1f7;
+}
+
+.navbar input{
+    margin: 0;
+    width: 20%;
+}
+.form-control {
+    margin-right: 10px; /* Espaçamento entre input e botão */
+}
+
+/* Estilo para a barra lateral */
+#sidebar {
+    width: 80px;
+    min-width: 80px;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: all .25s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    background-color: #004AAD;
+    z-index: 70;
+}
+
+/* Estilo para a barra lateral quando expandida */
+#sidebar.expanded {
+    width: 260px;
+    min-width: 260px;
+}
+
+.fio {
+    height: 3px;
+    width: 80%;
+    background-color: #fff;
+    margin-left: 10%;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+}
+
+.infosconta {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+        .ftperfil {
+            width: 35%;
+            height: 100px;
+
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .foto {
+            width: 90%;
+            height: 80%;
+            border-radius: 50px;
+            background-color: yellow;
+        }
+
+        .infosadd {
+            width: 65%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 2vh;
+            padding-left: 1vh;
+
+        }
+
+.infosadd h5 {
+
+    color: #fff;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    flex-direction: column;
+    display: flex;
+    margin-top: -2vh;
+    
+}
+
+.infosadd p {
+    
+    color: #fff;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    flex-direction: column;
+    display: flex;
+    font-size: 30px;
+}
+
+#sidebar{
+    width: 80px;
+    min-width: 80px;
+    transition: all .25s ease-in-out;
+    z-index: 70;
+
+}
+#content{
+    flex-grow: 1;
+    margin-left: 80px; /* largura da barra lateral quando não expandida */
+    transition: margin-left 0.25s ease-in-out;
+}
+#sidebar.expanded ~ #content {
+    margin-left: 260px; /* largura da barra lateral quando expandida */
+}
+
+
+
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.275);
+    display: none;
+    z-index: 70;
+
+}
+#overlay.active {
+
+    display: block;
+}
+
+.sidebar-link i {
+    font-size: 24px; /* Ajuste conforme desejado */
+    color: #ffffff;
+    margin-right: 10px; /* Espaçamento opcional */
+}
+
+/* Estilo para o botão de toggle */
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
+
+/* Estilo para o ícone dentro do botão de toggle */
+.toggle-btn i {
+    font-size: 1.5rem;
+    color: #e38144;
+}
+
+/* Estilo para o logo da barra lateral */
+.sidebar-logo {
+    color: #000000;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+span {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 2vh;
+}
+
+/* Estilo para o link dentro do logo da barra lateral */
+.sidebar-logo a {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Esconde o logo e os spans dos links quando a barra lateral não está expandida */
+#sidebar:not(.expanded) .sidebar-logo,
+#sidebar:not(.expanded) .sidebar-item,
+#sidebar:not(.expanded) .infosconta,
+#sidebar:not(.expanded) .fio,
+#sidebar:not(.expanded) a.sidebar-link span {
+    display: none;
+}
+
+
+/* Estilo para a navegação da barra lateral */
+.sidebar-nav {
+    padding: 2rem 0;
+    flex: 1 1 auto;
+}
+
+/* Estilo para os spans dos links da barra lateral */
+a.sidebar-link span {
+    font-weight: 600;
+    opacity: 0;
+}
+
+/* Define a opacidade e a posição dos spans dos links para quando a barra lateral está expandida */
+#sidebar.expanded a.sidebar-link span {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0); /* Volta o span para a posição original */
+}
+
+/* Estilo base para os links da barra lateral */
+a.sidebar-link {
+    padding-block-end: 1.625rem;
+    color: #000000;
+    display: block;
+    font-size: 1rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+/* Estilo para os ícones dentro dos links da barra lateral */
+.sidebar-link img {
+    font-size: 1.1rem;
+    margin-right: .76rem;
+
+}
+
+/* Estilo para os links da barra lateral ao passar o mouse */
+a.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-left: 3px solid #3a85f7;
+}
+
+
+.iconesidebar i {
+
+    font-size: 50px;
+    color: #e38144;
+}
+
+/* Estilo para os itens da barra lateral */
+.sidebar-item {
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+}
+.helphouseImg{
+    width: 120px;
+}
+/* Esconde os dropdowns da barra lateral quando não está expandida */
+#sidebar:not(.expanded) .sidebar-item .sidebar-dropdown {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    background-color: #e38144;
+    padding: 0;
+    min-width: 15rem;
+    display: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #fff;
+}
+
+/* Mostra os dropdowns ao passar o mouse sobre os itens da barra lateral quando não está expandida */
+#sidebar:not(.expanded) .sidebar-item:hover .has-dropdown + .sidebar-dropdown {
+    display: block;
+    max-height: 15em;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+/* Adiciona um ícone de seta para os links com dropdowns quando a barra lateral está expandida */
+#sidebar.expanded .sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+    transform: rotate(-135deg);
+    transition: all .2s ease-in-out;
+    visibility: visible;
+
+}
+#sidebar .expanded {
+    filter: blur(5px);
+    transform: scale(0.8);
+    display: flex !important;
+    align-items: center;
+}
+/* Rotaciona a seta para indicar a expansão do dropdown quando a barra lateral está expandida */
+#sidebar.expanded .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-in-out;
+}
+
+
+
+.administradorDashboard{
+    display: flex;
+    margin: 0;
+}
+.administradorDashboard ion-icon{
+    color: #fff;
+}
+
+.lni{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(247, 67, 67);
+   color: #000000;
+   font-weight: 500;
+   font-size: 40px;
+}
+.lni:hover{
+    transition: 0.5s;
+    background-color: rgb(231, 124, 124);
+}
+
+/* ___________________________LOCAL DE RESPONSIVIDADE________________ */
+@media (width <= 651px){
+    #btn-search, .btn{
+        display: none;
+    }
+    #search{
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}

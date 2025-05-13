@@ -1,0 +1,105 @@
+.inicio {
+    margin-top: 4vh;
+    padding-left: 15vh;
+
+}
+
+.inicio p {
+    font-size: 30px ;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.title p {
+    color: #004AAD;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 15vh;
+    margin-top: -3vh;
+
+}
+
+.tudo {
+    display: flex;
+    width: 90%;
+    margin-left: 9%;
+    height: 800px;
+    margin-right: 20%;
+  }
+
+
+.containerEstadoCli {
+
+    flex-direction: column;
+    display:flex ;
+    width: 25%;
+    height: 500px;
+    justify-content: center;
+}
+
+button {
+    height: 80px;
+    border-radius: 30%;
+    margin-top: 3vh;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 3vh;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-aberto {
+    background-color: rgb(160, 5, 5);
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+    border:none
+}
+.btn-andamento {
+    background-color: rgb(231, 231, 48);
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+    border:none
+}
+.btn-concluidas {
+    background-color: rgb(12, 103, 12);
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+    border:none
+}
+
+
+h4 {
+    color: #004AAD;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    margin-bottom: 2vh;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.linha {
+    position: absolute;
+    top: 180px;
+    left: 660px;
+    height: 70%;
+    width: 3px;
+    background-color: rgba(53, 52, 52, 0.664);
+}
+
+.denuncias {
+    background-color: #e2e2e2;
+    margin-left: 15%;
+    width: 45%;
+    height: 900px;
+    border-radius: 30px;
+}
+

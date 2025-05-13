@@ -1,0 +1,253 @@
+/* titulo da page */
+
+
+.inicio {
+  margin-top: 4vh;
+  padding-left: 15vh;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+}
+
+.header {
+  width: 60%;
+}
+.search-container {
+  background-color: rgba(0, 0, 255, 0.415);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 5px 15px;
+  background-color: #fff;
+  width: 350px;
+  margin-right: 10vh;
+  margin-top: 2vh;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.inicio p {
+  font-size: 32px ;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.title p {
+  color: #004AAD;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin-left: 15vh;
+  margin-top: -3vh;
+ 
+}
+
+/* -------------- */
+
+.tudo {
+  display: flex;
+  width: 90%;
+  margin-left: 15%;
+}
+
+.conteudo {
+  justify-content: end;
+  align-items: center;
+  margin-left: 5vh;
+}
+
+
+.table-section h3 {
+  margin-bottom: 5vh;
+  color: #004AAD;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.partes {
+  width: 55px;
+  height: 400px;
+  flex-direction: column;
+  display: flex;
+  border-right: 3px solid rgb(110, 110, 110);
+  margin-left: 205px;
+  margin-top: -125px;
+  background-color: aquamarine;
+}
+
+.partes2 {
+  width: 75px;
+  height: 300px;
+  flex-direction: column;
+  display: flex;
+  border-right: 3px solid rgb(110, 110, 110);
+  margin-left: 200px;
+}
+
+.table th {
+  color: #004AAD;
+}
+.linha {
+    position: absolute;
+    top: 150px;
+    left: 680px;
+    height: 70%;
+    width: 3px;
+    background-color: rgba(53, 52, 52, 0.664);
+}
+
+.col-md-4{
+  height: 60px;
+}
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 30px;
+    height: 800px;
+    width: 400px;
+
+}
+
+.header h3{
+  display: flex;
+  width: 80%;
+  height: 2vh;
+  justify-content: start;
+  align-items: center;
+  padding-left: 11vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: -230px;
+  margin-top: 30px;
+}
+
+.titulo {
+  display: flex;
+  width: 80%;
+  height: 2vh;
+  justify-content: start;
+  align-items: center;
+  padding-left: 11vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: -200px;
+}
+
+.titulo p {
+  color: #004AAD;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.btn-nav {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #D9D9D9;
+    margin-right: 360px;
+    height: 73px;
+    width: 300px;
+    border-radius: 33px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 35px;
+    position: relative;
+    top: 95px;
+    border-color: #ffffff00;
+    }
+
+.btn-nav.active {
+    font-weight: bold;
+    font-size: 21px;
+    background-color: #004AAC;
+    color: #fff;
+}
+
+.btn-nav:hover {
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s;
+    background-color: #0b72e0;
+    color: #fff;
+}
+
+.table-section {
+    width: 80%;
+}
+
+.table {
+    margin-top: 10px;
+    margin-right: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  position: relative;
+  bottom: 17px;
+  right: 110px;
+  max-width: 59%;
+  height: auto;
+}
+
+.card2 img {
+  position: relative;
+  bottom: 9px;
+  right: 110px;
+  max-width: 53%;
+  height: auto;
+}
+
+.card3 img {
+  position: relative;
+  bottom: 27px;
+  right: 110px;
+  max-width: 60%;
+  height: auto;
+}
+
+.card-body {
+  margin-bottom: 20px;
+  padding: 1rem; /* Adicione algum espaçamento interno */
+}
+
+.header h1{
+  font-size: 30px;
+  padding: 1rem;
+}
+
+.header h2{
+  font-size: 45x;
+  color: #004AAC;
+  font-weight: 700;
+  padding-left: 3rem;
+  margin-bottom: 45px;
+}

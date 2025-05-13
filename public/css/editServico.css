@@ -1,0 +1,98 @@
+.title p {
+    color: #004AAD;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin-left: 15vh;
+    margin-top: 5vh;
+   
+  }
+
+.tudo {
+    justify-content: center;
+    display: flex;
+
+}
+
+.box {
+    background-color: #e2e2e2;
+    width: 40%;
+    height: 900px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.enchecao p {
+    margin-top: -30vh;
+    margin-left: 2vh;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #004AAD;
+
+}
+
+.form-group {
+    width: 70%;
+    margin-top: -15vh;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+label {
+
+    color: #004AAD;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+input {
+    border-radius: 20px;
+}
+
+.botoes {
+    margin-top: 3vh;
+}
+
+.btn {
+    background-color: #004AAD;
+   margin-top: 0.5vh;
+    border-radius: 20px;
+    color: #e2e2e2;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+    background-color: #002a61;
+    color: #e2e2e2;
+}
+
+.btn-cancel {
+    background-color: #ad0000;
+  
+    border-radius: 20px;
+    color: #e2e2e2;
+    font-weight: 500;
+    height: 38px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+    margin-bottom: 1vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-cancel:hover {
+    background-color: #700000;
+    color: #e2e2e2;
+   
+}

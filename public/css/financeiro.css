@@ -1,0 +1,190 @@
+
+.tudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.comeco {
+    flex-direction: row;
+}
+
+
+
+.title {
+    display: flex;
+    width: 80%;
+    height: 18vh;
+    justify-content: start;
+    align-items: center;
+    padding-left: 14.5vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    top: 8vh;
+    flex-direction: row;
+}
+
+.title h2 {
+   flex-direction: row;
+   margin-left: 5vh;
+ 
+}
+
+.title h4 {
+    flex-direction: row;
+    margin-left: 5vh;
+    color: rgb(0, 0, 146);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+ }
+
+
+.primeiracoluna {
+    flex-direction: column ;
+    justify-content: start;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    
+    margin-left: 10vh;
+}
+
+.receita {
+    flex-direction: row;
+    background-color: white;
+    height: 200px;
+    display: flex;
+    width: 500px;
+    border-radius: 30px;
+
+}
+
+.mediaval {
+    flex-direction: column ;
+    justify-content: start;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    margin-top: 10vh;
+    
+
+}
+
+.serviçosmes {
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 500px;
+    display: flex;
+    margin-top: 3vh;
+    border-radius: 30px;
+
+}
+
+.nome {  
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    flex-direction: row;
+    font-size: 20px;
+    
+}
+.agosto {   
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: orange;  
+}
+
+.icon {
+    flex-direction: column;
+}
+
+.segundacoluna {
+    flex-direction: column ;
+ 
+    height: 800px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+.chartusers {
+    flex-direction: row;
+    width: 350px;
+    height: 350px;
+}
+
+.crescimentousers {
+    flex-direction: row;
+    width: 500px;
+    height: 250px;
+    margin-top: 10vh;
+
+}
+
+.terceiracoluna {
+    flex-direction: column ;
+
+    height: 800px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+.despesareceita {
+    flex-direction: row;
+    width: 500px;
+    height: 350px;
+}
+
+.metodosdepag {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    margin-top: 3vh;
+    border-radius: 30px;
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+
+}
+
+.nseiainda {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    margin-top: 3vh;
+    border-radius: 30px;
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+
+}
+
+.fazL {
+    flex-direction: row;
+    width: 500px;
+    height: 250px;
+}
+
+.soliconclu {
+    margin-top: 15vh;
+}
+
+.palavrinha {
+    text-align: start;
+    margin-left: 3vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 23px;
+
+    
+}

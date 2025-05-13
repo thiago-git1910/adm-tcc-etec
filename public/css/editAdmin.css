@@ -1,0 +1,123 @@
+.title {
+    display: flex;
+    width: 80%;
+    height: 18vh;
+    justify-content: start;
+    align-items: center;
+    padding-left: 14.5vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    top: 8vh;
+    flex-direction: row;
+}
+
+
+.tudo {
+    background-color: white;
+    width: 70%;
+    height: 410px;
+    margin-left: 15%;
+    border-radius: 30px;
+    flex-direction: row;
+    display: flex;
+}
+
+
+
+.parteum {
+    flex-direction: column;
+
+    width: 45%;
+    height: 400px;
+    justify-content: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ptbotao button{
+    width: 60%;
+    height: 40%;
+    border:none;
+    border-radius: 30px;
+    background-color: rgb(20, 20, 143);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+.ptbotao button:hover {
+    background-color: rgb(119, 119, 119);
+    color: rgb(255, 255, 255);
+}
+
+
+.ptbotao {
+    flex-direction: row;
+
+    width: 40%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.foto {
+    flex-direction: row;
+    background-color: aquamarine;
+    width: 45%;
+    height: 250px;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+
+.partedois {
+    flex-direction: column;
+
+    width: 55%;
+    height: 400px;
+    justify-content: center;
+
+    display: flex;
+}
+
+
+
+.nomezinho {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 8vh;
+    color: rgb(20, 20, 143) ;
+    justify-content: center;
+    display: flex;
+
+}
+
+label {
+    margin-bottom: -5vh;
+    margin-top: 2vh;
+}
+
+.form-control {
+    width: 70%;
+    height: 10%;
+    margin-left: 10vh;
+
+}
+.botoes {
+    display: flex;
+    justify-content: end;
+    margin-right: 15%;
+    margin-top: 5vh;
+
+}
+.planos {
+    justify-content: space-between;
+}
